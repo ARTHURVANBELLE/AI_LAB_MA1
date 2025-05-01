@@ -134,6 +134,9 @@ celerybeat.pid
 *.csv.xz
 *.csv.zip
 
+# Exception - do not ignore this specific CSV file
+!models/computed_dataframe/*.csv
+
 # Environments
 .env
 .venv
